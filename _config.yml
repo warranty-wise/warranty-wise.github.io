@@ -1,0 +1,9 @@
+title: Warranty Wise
+google_analytics:
+show_downloads: false
+remote_theme: daattali/beautiful-jekyll@6.0.1
+github:
+  is_project_page: true
+  repository_url: https://github.com/warranty-wise/warranty-wise.github.io
+gems:
+  - jekyll-mentions
