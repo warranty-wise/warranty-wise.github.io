@@ -7,3 +7,5 @@ github:
   repository_url: https://github.com/warranty-wise/warranty-wise.github.io
 gems:
   - jekyll-mentions
+navbar-links:
+  - Github: https://github.com/warranty-wise/warranty-wise
