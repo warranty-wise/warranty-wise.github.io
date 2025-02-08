@@ -1,3 +1,5 @@
+## Warranty Wise
+## Overview
 Warranty-Wise is a web application focused on providing users with a centralized platform where they can search, filter and view their product and service warranties. Users are also able to browse and explore our built in information hub, where they can find answers to questions pertaining to the warranty claim process along with its requirements, warranty acquisition process and requirements, warranty extension options and more. By using Warranty-Wise, users can stay organized with all of their warranties and be automatically reminded when certain ones are about to expire, and be offered extension options based on their needs. 
 
 ## Weekly Development History
