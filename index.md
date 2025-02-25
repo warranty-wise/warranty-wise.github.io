@@ -25,3 +25,19 @@ After the weekly meeting, most of the mockups were approved, with a few needing 
 
 ### February 10th
 During the weekly meeting, we looked at a barebones entity relationship diagram on potential tables and fields in the database. The consensus was that more research needs to be done regarding different types of warranties, claims, and documents and information needed for these processes. Extra research also needs to be done on potential extended warranties other services we can provide to users through the AI feature. On the front end, we continue to add more detail and flesh out the previous mockups and will soon start turning the designs into code through Figma and builder.io, and eventually start having the development environment configured. 
+
+### February 17th
+The revised ERD was showcased during the meeting and was met with great feedback. More work also went into implementing the homepage and getting an overall theme for the front-end. A basic login and signup page, along with a profile/account update page has been setup to test authentication, more styling can be done on these pages at a later date. For next week, we plan to continue working on our current task of focusing on a user story and getting those features and pages implemented. 
+
+![](doc/revised_ERD.png)
+![](doc/log_in_and_sign_up.png)
+![](doc/update_profile.png)
+![](doc/initial_homepage.png)
+
+
+### February 24th
+After the ERD was approved, the warranties table was setup on Supabase and populated with some initial data that can be used to render dummy data onto the site. A basic form for manually inserting warranties was created and verified to be inserting into the table after the form has been submitted. It was brought up during the meeting that we should note down that an automatic ingesting process would be preferred over manual forms, and this was something that can be accomplished through AI and OCR. This will be looked into further as more of the basic functionalities are fleshed out. 
+
+More pages have been created following the theme of the homepage and more pages will continue to be worked on, especially regarding the information laid out in each page. For log-in and sign-ups, more authentication will be provided, such as using one's Google, Github, and Facebook accounts to log-in/sign-up. 
+
+![](doc/warranty_form.png)
