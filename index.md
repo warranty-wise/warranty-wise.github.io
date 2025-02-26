@@ -41,3 +41,6 @@ After the ERD was approved, the warranties table was setup on Supabase and popul
 More pages have been created following the theme of the homepage and more pages will continue to be worked on, especially regarding the information laid out in each page. For log-in and sign-ups, more authentication will be provided, such as using one's Google, Github, and Facebook accounts to log-in/sign-up. 
 
 ![](doc/warranty_form.png)
+![](doc/initial_landing.png)
+![](doc/better_dash.png)
+![](doc/login.png)
