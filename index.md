@@ -44,3 +44,14 @@ More pages have been created following the theme of the homepage and more pages 
 ![](doc/initial_landing.png)
 ![](doc/better_dash.png)
 ![](doc/login.png)
+
+### March 3rd
+For this week, we mainly focused on finishing up the core functionalities dealing with warranties, as well as styling the corresponding components related to each function. We have also moved towards rendering individual components instead of pages so that all actions allow the user to stay on the same page. As of this week, we have implemented, displaying the list of warranties the user owns, displaying more details about each warranty after their individual cards have been clicked, creating, editing, and deleting warranties. 
+
+For the future, we plan on moving our focus towards more AI-related features, including mapping out the individual areas that we want to incorporate AI into the application, as well as researching different AI APIs or tech stacks that we can learn and utilize in the application. 
+
+![](doc/landing-styled.png)
+![](doc/warranty_items.png)
+![](doc/Warranty_details.png)
+![](doc/edit_warranty.png)
+![](doc/delete_warranty.png)
