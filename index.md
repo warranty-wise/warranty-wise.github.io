@@ -55,3 +55,13 @@ For the future, we plan on moving our focus towards more AI-related features, in
 ![](doc/Warranty_details.png)
 ![](doc/edit_warranty.png)
 ![](doc/delete_warranty.png)
+
+
+### March 10th
+Due to midterms, most of the work that has been done are related to bug fixes that resulted from the previous weeks of development. These include fine tuning the login process and front-end responses from the back-end. The warranty insertion and edit forms were also edited to be more user-friendly with inputting certain fields. 
+
+
+### March 17th
+During this week, the basic functionalities of the OCR feature was implemented. When users click the insert warranty button, they're now given two choices, either to input the information manually through the default insertion form, or they can choose to upload their documents for the OCR to scan through. Currently that is the end of the cycle, however we want to incorporate an AI parser that will take the output from the OCR results, take all the useful information, and help users fill out the insertion form. When the form has been filled out in both cases, either manual or through AI/OCR, we will display a final form for the user to double check, making sure all the fields are filled out correctly before finally submitting. 
+
+![](doc/OCR_result.png)
