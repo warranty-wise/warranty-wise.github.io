@@ -65,3 +65,9 @@ Due to midterms, most of the work that has been done are related to bug fixes th
 During this week, the basic functionalities of the OCR feature was implemented. When users click the insert warranty button, they're now given two choices, either to input the information manually through the default insertion form, or they can choose to upload their documents for the OCR to scan through. Currently that is the end of the cycle, however we want to incorporate an AI parser that will take the output from the OCR results, take all the useful information, and help users fill out the insertion form. When the form has been filled out in both cases, either manual or through AI/OCR, we will display a final form for the user to double check, making sure all the fields are filled out correctly before finally submitting. 
 
 ![](doc/OCR_result.png)
+
+### March 31st
+A simple AI chatbot has been implemented using OpenAI's API. Users are now able to navigate to the AI chatbot and ask questions about warranty information, claim process and other questions they might have with warranties. Most of the other work has been done in the database, where the midpoint table for warranty checking after AI parses the OCR plain text was made, as well as a notifications table. 
+
+### April 7th
+The AI parser has seen progress, it is now able to successfully parse the plain text provided by the OCR, the next stage is inserting into the midpoint table, and retrieving the appropriate row from that table, and displaying a confirmation form that users must go through and make sure every field is correct. Notifications has also been set up, but more refinement needs to be done to allow more options for user to delete/read notifications. Future plans also include a calendar system where events are added and displayed showing users the days they have warranties expiring, this acts as a better visual representation of the notifications system. 
