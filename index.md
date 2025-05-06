@@ -71,3 +71,15 @@ A simple AI chatbot has been implemented using OpenAI's API. Users are now able 
 
 ### April 7th
 The AI parser has seen progress, it is now able to successfully parse the plain text provided by the OCR, the next stage is inserting into the midpoint table, and retrieving the appropriate row from that table, and displaying a confirmation form that users must go through and make sure every field is correct. Notifications has also been set up, but more refinement needs to be done to allow more options for user to delete/read notifications. Future plans also include a calendar system where events are added and displayed showing users the days they have warranties expiring, this acts as a better visual representation of the notifications system. 
+
+### April 14th
+The overall OCR flow has been implemented, at least conceptually. Users are now able to choose an image to upload to the OCR to scan through, and the AI will parse the text returned by the OCR into useful data that we can insert into a midpoint table. From there, we would fetch that entry from the table, and display it in a form for users to double check the information and do the final submission. We have also decided to go with using the calendar events system rather than the notifications, as that would require a constantly running process, which is not possible for local development. 
+
+### April 21st
+A calendar event table and UI has been created to showcase when an user's warranties would be expiring. Further improvements to the UI would need to be made, possibly a yearly view. The notifications system has been removed from the UI, but still kept in the code base as it is a future feature that would be implemented. We are also looking into adding a dedicated document view so users can view/delete any documents they have uploaded to the site. 
+
+### April 28th
+We have decided to do an overhaul of the sidebar, removing some options, but most importantly, moving the AI chatbot to be a forever showing feature on the bottom right of the screen. This way, our users would be able to access the chatbot at all times and ask questions. In the future, it would be nice to have it so that the chatbot can read the content on the screen that the user is on so it can give recommendations and better answers. A simple document view was created to list out all the documents the user has, but no other features have been implemented for it yet. 
+
+### May 5th
+View/download and delete feature has been added for the document view. However, we are looking into possibly moving the document view to the warranty details page, so it shows all the associated documents for each warranty, instead of just listing out all the documents. More UI standardization also needs to be made to freshen up and clean up the UI. 
