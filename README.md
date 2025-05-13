@@ -62,3 +62,10 @@ When users choose to upload documents to create their warranties, these document
 #### Notifications/Calendar events
 Currently, the calendar event system is used in place of notifications, mainly due to the limitations of a local development environment. The notifications system is there to support active reminders, where users would get emails/notifications when they have warranties that are close to expiring. The AI can also play a part in this by giving them recommendations on renewal options or upgrades. 
 
+### Project Day Feedback
+
+#### Feedback
+Majority of the people who came by to the booth had great things to say, many talked about how useful this application would be if it was launched, and some talked about how the application can be improved on. Overall, the feedback was extremely positive, and we were praised for our work. 
+
+#### Potential features
+After listening our presentation, some people brought up future connections/features that could be implemented, including 3rd party support for acquiring receipts, expanding the scope to include other important documents and just make the application a document tracker. There were also some technical advice given for the OCR process. Two people suggested creating structured data using Pydantic and using it to help give almost 100% accurate OCR results through AI. By using this process instead of OCRing through tesseract, we can do text recognition and parsing using the same AI process. 
